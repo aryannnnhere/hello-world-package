@@ -1,0 +1,19 @@
+{
+  "name": "aryannnnhere/hello-world-package",
+  "description": "A hello world composer private package.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "aryan",
+      "email": "aryanskbyadav@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "aryannnnhere\\hello-world-package\\": "src/"
+    }
+  },
+  "require": {}
+}
